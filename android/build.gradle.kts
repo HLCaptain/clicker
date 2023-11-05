@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.google.ksp)
 }
 
-group = "com.example"
+group = "illyan"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -13,10 +13,10 @@ repositories {
 }
 
 android {
-    namespace = "com.example.demo"
+    namespace = "illyan.clicker"
     compileSdk = 34
     defaultConfig {
-        applicationId = "com.example.demo"
+        applicationId = "illyan.clicker"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

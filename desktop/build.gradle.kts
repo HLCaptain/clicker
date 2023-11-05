@@ -11,5 +11,5 @@ dependencies {
 }
 
 application {
-    mainClass = "com.example.demo.MainKt"
+    mainClass = "illyan.clicker.MainKt"
 }

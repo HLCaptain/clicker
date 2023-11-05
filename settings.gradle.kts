@@ -9,7 +9,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "compose-multiplatform-template"
+rootProject.name = "illyan.clicker"
 
 include(":android")
 include(":desktop")

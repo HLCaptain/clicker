@@ -11,7 +11,7 @@ plugins {
 //    alias(libs.plugins.google.services)
 }
 
-group = "com.example"
+group = "illyan"
 version = "1.0-SNAPSHOT"
 
 kotlin {
@@ -127,7 +127,7 @@ ksp {
 }
 
 android {
-    namespace = "com.example.demo"
+    namespace = "illyan.clicker"
     compileSdk = 34
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     defaultConfig {
@@ -138,7 +138,7 @@ android {
 sqldelight {
     databases {
         create("Database") {
-            packageName = "com.example.demo.db"
+            packageName = "illyan.clicker.db"
             generateAsync = true
         }
     }
