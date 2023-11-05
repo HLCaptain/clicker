@@ -9,7 +9,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "illyan.clicker"
+rootProject.name = "clicker"
 
 include(":android")
 include(":desktop")
